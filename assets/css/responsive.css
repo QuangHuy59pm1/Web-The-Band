@@ -1,0 +1,81 @@
+/* PC: width >= 1024px */
+@media screen and (min-width: 64em) {
+ 
+}
+
+/* Table: width 740px - 1024px */
+@media screen and (min-width: 46.25em ) and (max-width: 63.9375em) {
+    
+}
+
+/* Mobile: width < 740px  */
+@media screen and (max-width: 46.1875em) {
+    .s-pt-8 {
+        padding-top: 8px;
+    }
+
+    .flex-basis {
+        flex-basis:auto !important;
+    }
+
+    .text-align-center {
+        text-align: center;
+    }
+
+    .s-col-full {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .header-search {
+        display: none;
+    }
+
+    #header .header-menu {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li  {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #000;
+    }
+
+    #nav .subnav a {
+        color: #fff !important;
+    }
+
+
+    #content .img-member {
+        width: 60%;
+    }
+
+    .members-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .member-name {
+        margin-top: 16px;
+        margin-bottom: 0;
+    }
+
+    #tour .places {
+        display: flex;
+        flex-direction: column;
+    }
+}
